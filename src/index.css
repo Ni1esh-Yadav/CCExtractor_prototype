@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Define the CSS variables for light and dark theme */
+:root {
+  --light-background: #FFFFFF;
+  /* Light background */
+  --dark-background: #1C1C1E;
+  /* Dark background */
+}
+
+/* Default background for light theme */
+html {
+  min-height: 100%;
+  background-color: var(--light-background);
+
+}
+
+/* Dark theme background when 'dark' class is added */
+html.dark {
+  background-color: var(--dark-background);
+  /* Dark background for html */
+}
+
+/* Body settings */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: inherit;
+  /* Inherit background color from html */
+}
