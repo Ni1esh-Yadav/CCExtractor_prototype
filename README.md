@@ -35,3 +35,10 @@ Follow these steps to set up and run the project locally:
    npm run dev
 
 The app should now be running on http://localhost:5173
+
+UI of CCExtractor:
+
+
+https://github.com/user-attachments/assets/8d1dca40-89bc-4011-bb07-0ea1522f2c41
+
+
